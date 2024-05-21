@@ -108,11 +108,23 @@
       width: 98%;
     }
     .footer__title{
-        font-size:26px;
-    }
-    .footer__text{
-        font-size:14px;
-    }
+      font-size:24px;
+      font-weight:600;
+      width: 80%;
+      margin: 0 auto;
+      line-height: 36px;
+      padding-bottom: 15px;
+  }
+  .footer__name{
+      font-size:14px;
+      width: 80%;
+      margin: 0 auto;
+  }
+  .footer__link{
+    font-size: 15px;
+    width: 90%;
+    margin: 0 auto;
+  }
     .footer__link{
       font-size:14px;
     }

@@ -164,7 +164,7 @@
       width: 500px;
     }
     .header__title{
-        font-size:16px;
+        font-size:18px;
     }
     .header__subtext{
         font-size:15px
@@ -189,14 +189,18 @@
       width: 98%;
     }
     .header__name{
-        font-size:32px;
-        font-weight: 600;
+        font-size:36px;
+        font-weight: 700;
     }
+
     .header__wrap{
       top: 90px;
     }
     .header__list{
       width: 99%;
+      border-radius: 35px;
+      padding-left: 25px;
+      padding-right: 25px;
     }
     .header__img{
       height: 600px;
@@ -209,6 +213,7 @@
     }
     .header__box{
       gap: 15px;
+      padding-left: 0;
     }
 
   }
