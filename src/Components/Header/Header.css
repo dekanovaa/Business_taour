@@ -203,6 +203,12 @@
     }
     .header__item{
       gap: 15px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    .header__box{
+      gap: 15px;
     }
 
   }
