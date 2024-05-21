@@ -28,9 +28,6 @@ function Support() {
         centeredSlides={true}
         navigation ={true}
         loop={true}
-        pagination={{
-          clickable: true,
-        }}
         breakpoints={{
           640: {
             slidesPerView: 2,
