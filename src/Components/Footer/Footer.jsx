@@ -14,7 +14,7 @@ function Footer() {
   <h1 className="footer__title">{t("footer.title")}</h1>
   <h3 className="footer__name">{t("footer.name")}</h3>
           </div>
-          <Button title={t("footer.btn")} wh={"160px"} ht={"45px"}   />
+          <Button title={t("footer.btn")} wh={"200px"} ht={"45px"}   />
         </div>
       </div>
       <div className="footer__wrapper">

@@ -55,7 +55,7 @@ function Header() {
               <p className="header__subtext">$150.000</p>
             </div>
             </li>
-            <Button title={t("header.btn2")} wh={"150px"} ht={"45px"} />
+            <Button title={t("header.btn2")} wh={"170px"} ht={"45px"} />
           </ul>
           </div>
         </SwiperSlide>
@@ -87,7 +87,7 @@ function Header() {
               <p className="header__subtext">$125.600</p>
             </div>
             </li>
-            <Button title={t("header.btn2")} wh={"150px"} ht={"45px"}/>
+            <Button title={t("header.btn2")} wh={"170px"} ht={"45px"}/>
           </ul>
           </div>
         </SwiperSlide>
@@ -119,7 +119,7 @@ function Header() {
               <p className="header__subtext">$230.000</p>
             </div>
             </li>
-            <Button title={t("header.btn2")} wh={"150px"} ht={"45px"}/>
+            <Button title={t("header.btn2")} wh={"170px"} ht={"45px"}/>
           </ul>
           </div>
         </SwiperSlide>
@@ -151,7 +151,7 @@ function Header() {
               <p className="header__subtext">$490.000</p>
             </div>
             </li>
-            <Button title={t("header.btn2")} wh={"150px"} ht={"45px"} />
+            <Button title={t("header.btn2")} wh={"170px"} ht={"45px"} />
           </ul>
           </div>
         </SwiperSlide>

@@ -1,12 +1,13 @@
 .button:hover{
-    color:rgb(243, 158, 30);
-    background-color: white;
-    border: 1px solid rgb(243, 158, 30);
+    opacity: 0.8;
     transition: 0.3s;
 }
 
 .button{
-    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
     background-color: rgb(243, 158, 30);
     color: white;
     border-radius: 25px;
@@ -18,7 +19,4 @@
     font-size:16px;
     font-weight: 500;
     border:none;
-}
-.button__link:hover{
-    color: rgb(243, 158, 30);
 }
