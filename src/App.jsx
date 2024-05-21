@@ -12,6 +12,7 @@ import Map from './Components/Map/Map'
 import Message from './Components/Message/Message'
 import Footer from './Components/Footer/Footer'
 import Modal from './Components/Modal/Modal'
+import { useTranslation } from 'react-i18next'
 
 
 
@@ -19,6 +20,11 @@ import Modal from './Components/Modal/Modal'
 
 
 function App() {
+  const { t, i18n } = useTranslation();
+  const handleChange = (event) => {
+    i18n.changeLanguage(event)
+
+  }
   
 
   return (

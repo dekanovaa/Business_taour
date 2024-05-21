@@ -1,7 +1,7 @@
 import './Button.css'
 
 
-function Button({title,bg,cl,wh,ht,br,hv,b}) {
+function Button({title,bg,cl,wh,ht,br,hv,b,pd}) {
     const styleBtn = {
         backgroundColor: bg,
         textColor:cl,
@@ -11,6 +11,7 @@ function Button({title,bg,cl,wh,ht,br,hv,b}) {
         hover:hv,
         border:b,
         color:cl,
+        padding:pd,
 
     }
 
