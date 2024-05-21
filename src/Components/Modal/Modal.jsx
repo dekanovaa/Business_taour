@@ -16,7 +16,7 @@ function Modal(){
     const [state, setState] = React.useState({
         
         right: false,
-        top:false,
+     
       });
     
       const toggleDrawer = (anchor, open) => (event) => {
@@ -37,20 +37,25 @@ function Modal(){
           <List>
             {[
                <a className="navbar__link_modal" href="/">{t("navbar.home")}</a>,
+               <hr/>,
                <a className="navbar__link_modal" href="#About">{t("navbar.about")}</a>,
+               <hr/>,
                <a className="navbar__link_modal" href="#Tours">{t("navbar.tour")}</a>,
+               <hr/>,
                <a className="navbar__link_modal" href="#Contacts">{t("navbar.contact")}</a>,
+               <hr/>,
                <button onClick={()=>handleChange('uz')}   className="navbar__btn_modal">UZ</button>,
+               <hr/>,
                <button onClick={()=>handleChange('en')}  className="navbar__btn_modal">ENG</button>,
+               <hr/>,
                <button onClick={()=>handleChange('ru')}   className="navbar__btn_modal">RU</button>,
+               <hr/>,
                <a className="navbar__sublink" href="https://t.me/zamonbiznestour"><i class="fa-brands fa-telegram"></i></a>,
+               <hr/>,
                <a className="navbar__sublink" href="https://www.instagram.com/zamontour"><i class="fa-brands fa-instagram"></i></a>,
             ].map((text, index) => (
               <ListItem key={text} disablePadding>
                 <ListItemButton>
-                  {/* <ListItemIcon>
-                  {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-                  </ListItemIcon> */}
                   <ListItemText primary={text} />
                 </ListItemButton>
               </ListItem>
