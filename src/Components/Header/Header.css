@@ -189,7 +189,8 @@
       width: 98%;
     }
     .header__name{
-        font-size:32px
+        font-size:32px;
+        font-weight: 600;
     }
     .header__wrap{
       top: 100px;
@@ -200,6 +201,9 @@
     .header__img{
       height: 600px;
     }
+    .header__item{
+      gap: 10px;
+    }
 
   }
   @media(max-width:420px){
@@ -207,10 +211,10 @@
       width: 99%;
     }
     .header__name{
-        font-size:28px
+        font-size:32px;
     }
     .header__title{
-        font-size:14px;
+        font-size:16px;
     }
     
   }

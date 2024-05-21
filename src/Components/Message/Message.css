@@ -175,7 +175,7 @@ option{
         padding:20px 10px;
     }
     .message__name,.message__title{
-        font-size:14px;
-        font-weight: 500;
+        font-size:18px;
+        font-weight: 600;
     }
   }
