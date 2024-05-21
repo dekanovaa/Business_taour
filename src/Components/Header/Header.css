@@ -131,7 +131,7 @@
         width: 200px;
     }
     .header__list{
-        padding: 25px 15px;
+        padding: 25px 10px;
         
     }
   }
@@ -193,7 +193,7 @@
         font-weight: 600;
     }
     .header__wrap{
-      top: 100px;
+      top: 90px;
     }
     .header__list{
       width: 99%;
@@ -202,7 +202,7 @@
       height: 600px;
     }
     .header__item{
-      gap: 10px;
+      gap: 15px;
     }
 
   }

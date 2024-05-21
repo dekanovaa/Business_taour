@@ -14,7 +14,7 @@
         "text1":"Aholi:",
         "text2":"Hudud:",
         "text3":"O'rtacha narx:",
-        "btn1":"U yerga borish",
+        "btn1":"Borishni xohlaysizmi?",
         "btn2":"Ko'proq bilish"
     },
     "tour":{
@@ -89,11 +89,11 @@
         "btn":"Ko'proq bilish"
     },
     "location":{
-        "title":"Eng yaxshi joylar",
+        "title":"Eng yaxshi manzillar",
         "text":"Har bir shaharda eng yaxshi takliflarni kashf eting, faqat siz uchun tanlangan. Tejash dunyosiga sho'ng'ing va mislsiz tajribalardan bahramand bo'ling."
     },
     "contact":{
-        "title":"Biletlarni bu yerda band qiling",
+        "title":"O'zingiz yoqtirganingizni tanlang",
         "name":"Buyurtma qiling",
         "btn":"Ko'proq bilish",
         "text1":"Telefon orqali qo'ng'iroq qiling",
@@ -101,22 +101,22 @@
         "text3":"Ofislarimizga tashrif buyuring"
     },
     "message":{
-        "name1":"Ushbu",
-        "title1":"Forma orqali",
-        "name2":"Buyurtma",
+        "name1":"O'z",
+        "title1":"Joyingizni",
+        "name2":"Band",
         "title2":"Qiling",
         "label1":"Ismingiz",
         "label2":"Telefon raqamingiz",
         "label3":"Mehmonlar soni",
         "label4":"Kirish sanasi",
         "label5":"Manzilingizni tanlang",
-        "label6":"Viza Qo'llab-quvvatlashni tanlang",
-        "btn":"Endi buyurtma qiling"
+        "label6":"Viza turini tanlang",
+        "btn":" Buyurtma qiling"
     },
     "footer":{
         "title":"SAYOHAT QILMOQCHIMISIZ?",
-        "name":"Tugmani bosish orqali buyurtma qiling",
+        "name":"Tugmani bosish orqali biz bilan bog'laning",
         "text":"Mualliflik huquqi © 2024 Zamon Business Tour. Barcha huquqlar himoyalangan.",
-        "btn":"Joy band qiling"
+        "btn":"Bog'lanish"
     }
 }
