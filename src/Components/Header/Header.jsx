@@ -19,10 +19,10 @@ function Header() {
      <Swiper
         spaceBetween={30}
         centeredSlides={true}
-        autoplay={{
-          delay: 3500,
-          disableOnInteraction: false,
-        }}
+        // autoplay={{
+        //   delay: 3500,
+        //   disableOnInteraction: false,
+        // }}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
