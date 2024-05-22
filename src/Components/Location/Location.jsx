@@ -37,32 +37,29 @@ function Location() {
         pagination={{
           clickable: true,
         }}
-        breakpoints={{
-          640: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-          },
-          560: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-          },
-          460: {
-            slidesPerView: 2,
-            spaceBetween: 20,
-          },
-          360: {
-            slidesPerView: 2,
-            spaceBetween: 20,
-          },
-          768: {
-            slidesPerView: 4,
-            spaceBetween: 40,
-          },
-          1024: {
-            slidesPerView: 4,
-            spaceBetween: 50,
-          },
-        }}
+        // breakpoints={{
+        //   519: {
+        //     slidesPerView: 1,
+        //     spaceBetween: 20,
+        //   },
+        //   520: {
+        //     slidesPerView: 2,
+        //     spaceBetween: 20,
+        //   },
+        //   600: {
+        //     slidesPerView: 2,
+        //     spaceBetween: 20,
+        //   },
+
+        //   768: {
+        //     slidesPerView: 4,
+        //     spaceBetween: 40,
+        //   },
+        //   1024: {
+        //     slidesPerView: 4,
+        //     spaceBetween: 50,
+        //   },
+        // }}
         modules={[Pagination]}
         className="mySwiper"
       >

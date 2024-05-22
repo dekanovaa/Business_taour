@@ -52,6 +52,7 @@
 }
 .fa-bars{
   display: none;
+  
 }
 
 
@@ -90,7 +91,7 @@
     }
     .fa-bars{
       display:block;
-      padding-right: 80px;
+     
     }
     .navbar{
       position: sticky;
@@ -118,16 +119,12 @@
     .navbar__container{
       width: 98%;
     }
-    .fa-bars{
-      padding-left: 240px;
-    }
+    
   
   }
   @media(max-width:420px){
     .navbar__container{
       width: 99%;
     }
-    .fa-bars{
-      padding-left: 180px;
-    }
+   
   }

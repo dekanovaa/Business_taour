@@ -18,7 +18,7 @@
 .location{
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: rgb(252, 245, 233);
+   
 }
 .location__img{
     width: 100%;
@@ -31,10 +31,7 @@
     margin: 0 auto;
 
 }
-#local__swiper{
-  background-color:rgb(252, 245, 233)
 
-}
 
 
 
@@ -74,16 +71,25 @@
         width: 80%;
         margin:0 auto;
     }
+    .location__img{
+      height: 350px;
+    }
   
   }
   @media(max-width:720px){
     .container{
       width: 600px;
     }
+    .location__img{
+      height: 300px;
+    }
   }
   @media(max-width:620px){
     .container{
       width: 500px;
+    }
+    .location__img{
+      height: 200px;
     }
     
   }
@@ -91,11 +97,17 @@
     .container{
       width: 98%;
     }
+    .location__img{
+      height: 120px;
+    }
    
   }
   @media(max-width:420px){
     .container{
       width: 99%;
+    }
+    .location__img{
+      height: 90px;
     }
    
   }

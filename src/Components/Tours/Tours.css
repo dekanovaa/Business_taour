@@ -42,6 +42,9 @@
       height: 2px;
       border:none;
   }
+  .tour__box{
+    display: none;
+  }
  
   
 
@@ -97,6 +100,7 @@
     .tour__title{
         font-size:28px;
     }
+    
   }
   @media(max-width:620px){
     .container{

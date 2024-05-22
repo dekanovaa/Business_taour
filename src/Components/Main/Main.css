@@ -181,7 +181,7 @@
         height: 300px;
     }
     .main__box{
-        flex-direction: column;
+        
         text-align: center;
     }
     .main__wrapper{

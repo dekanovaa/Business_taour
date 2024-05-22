@@ -29,20 +29,25 @@ function Support() {
         navigation ={true}
         loop={true}
         breakpoints={{
-          640: {
-            slidesPerView: 2,
+          720: {
+            slidesPerView: 1.5,
+            spaceBetween: 20,
+            
+          },
+          620: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            
+          },
+          520: {
+            slidesPerView: 1,
             spaceBetween: 20,
           },
-          560: {
-            slidesPerView: 2,
+          420: {
+            slidesPerView: 1,
             spaceBetween: 20,
           },
-          460: {
-            slidesPerView: 2,
-            spaceBetween: 20,
-            navigation:false,
-          },
-          360: {
+          320: {
             slidesPerView: 1,
             spaceBetween: 20,
           },
