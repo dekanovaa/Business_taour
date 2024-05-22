@@ -227,6 +227,9 @@
     .header__title{
         font-size:16px;
     }
+   .header__list{
+     margin-top:60px;
+   }
     
   }
 

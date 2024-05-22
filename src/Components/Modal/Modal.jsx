@@ -37,6 +37,7 @@ function Modal(){
         >
           <List>
             {[
+              <div className="modal__top"></div>,
                <a className="navbar__link_modal" href="/">{t("navbar.home")}</a>,
                <hr/>,
                <a className="navbar__link_modal" href="#About">{t("navbar.about")}</a>,
