@@ -11,8 +11,14 @@ import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import { t } from 'i18next';
+import { useTranslation } from 'react-i18next';
 
 function Modal(){
+  const { t, i18n } = useTranslation();
+  const handleChange = (event) => {
+    i18n.changeLanguage(event)
+
+  }
     const [state, setState] = React.useState({
         
         right: false,
