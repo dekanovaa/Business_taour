@@ -17,14 +17,10 @@ function Modal(){
   const { t, i18n } = useTranslation();
   const handleChange = (event) => {
     i18n.changeLanguage(event)
-
   }
     const [state, setState] = React.useState({
-        
         right: false,
-     
       });
-    
     
       const toggleDrawer = (anchor, open) => (event) => {
         if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {

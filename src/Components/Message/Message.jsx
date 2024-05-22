@@ -31,10 +31,11 @@ function Message() {
     })
     .then((res) =>{
       document.getElementById("form").reset();
-      message.res("Yuborildi")
+      message.success("Yuborildi")
     }).catch((error) =>{
       console.log("yuborishda xotilik yuz berdi",error);
       message.error("xatolik")
+      console.log(error);
     }).finally(() =>{
       setloading(false);
     })
