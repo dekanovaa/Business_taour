@@ -31,12 +31,9 @@ function App() {
     <>
   
 
-  <div className="top">
-    <div className="container top__container">
+
+  
   <Navbar/>
-    <Modal/>
-  </div>
-  </div>
     <Header/>
     <Tours/>
     <Support/>

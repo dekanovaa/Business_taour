@@ -39,14 +39,6 @@ function Tours() {
             slidesPerView:2,
             spaceBetween:20,
           },
-          // 580: {
-          //   slidesPerView: 2,
-          //   spaceBetween: 20,
-          // },
-          // 460: {
-          //   slidesPerView: 2,
-          //   spaceBetween: 20,
-          // },
           360: {
             slidesPerView: 1,
             spaceBetween: 20,

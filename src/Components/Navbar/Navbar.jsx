@@ -2,6 +2,7 @@ import './Navbar.css'
 import logo from './Navbar.img/logo.svg';
 import React from 'react';
 import {useTranslation} from 'react-i18next'
+import Modal from '../Modal/Modal';
 
 
 
@@ -29,6 +30,7 @@ function Navbar() {
                <a className="navbar__sublink" href="https://t.me/zamonbiznestour"><i class="fa-brands fa-telegram"></i></a>
                <a className="navbar__sublink" href="https://www.instagram.com/zamontour"><i class="fa-brands fa-instagram"></i></a>
            </div>
+           <Modal/>
         </div>
     </div>
   )
