@@ -13,12 +13,12 @@
   
 
 }
-/* .top{
+.top{
   display: flex;
   align-items: center;
   background-color:rgb(243, 158, 30);
 
-} */
+}
 
 
 
@@ -26,6 +26,12 @@
 @media(max-width:920px){
   .fa-bars{
     display:block;
+  }
+  .top{
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 20;
   }
 }
 

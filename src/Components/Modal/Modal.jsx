@@ -10,7 +10,7 @@ import Divider from '@mui/material/Divider';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
-import { t } from 'i18next'
+import { t } from 'i18next';
 
 function Modal(){
     const [state, setState] = React.useState({

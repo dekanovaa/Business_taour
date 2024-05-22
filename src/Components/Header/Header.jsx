@@ -17,12 +17,12 @@ function Header() {
   return (
     <div className="header">
      <Swiper
-        spaceBetween={30}
+        spaceBetween={0}
         centeredSlides={true}
-        // autoplay={{
-        //   delay: 3500,
-        //   disableOnInteraction: false,
-        // }}
+        autoplay={{
+          delay: 3500,
+          disableOnInteraction: false,
+        }}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >

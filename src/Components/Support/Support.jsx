@@ -48,10 +48,10 @@ function Support() {
           },
          
         }}
-        // autoplay={{
-        //   delay: 3500,
-        //   disableOnInteraction: false,
-        // }}
+        autoplay={{
+          delay: 3500,
+          disableOnInteraction: false,
+        }}
         modules={[ Navigation,Autoplay,Pagination]}
         className="mySwiper"
       >

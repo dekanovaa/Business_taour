@@ -28,7 +28,7 @@
     left: 0;
     right: 0;
     z-index: 20;
-    /* padding-top: 45px; */
+    padding-top: 45px;
     
 }
 
@@ -112,6 +112,7 @@
     .navbar__container{
       width: 500px;
     }
+  
   }
   @media(max-width:520px){
     .navbar__container{

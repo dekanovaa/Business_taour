@@ -33,7 +33,10 @@ function App() {
 
 
   
+  <div className="top">
   <Navbar/>
+  <Modal/>
+  </div>
     <Header/>
     <Tours/>
     <Support/>
