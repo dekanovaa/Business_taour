@@ -162,6 +162,7 @@
     }
     .about__title{
         font-size:26px;
+        width: 98%;
     }
     .about__subtitle{
         font-size: 18px;
