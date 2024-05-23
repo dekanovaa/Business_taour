@@ -129,13 +129,18 @@
       height: 330px;
     }
     .Slidercard__title{
-      font-size:22px;}
+      font-size:22px;
+      width: 98%;
+      margin:0 auto;
+    }
       .tour__hr{
         margin-top: 50px;
        
       }
       .tour__text{
         padding-bottom: 10px;
+        width: 97%;
+        margin: 0 auto;
       }
      
   }
