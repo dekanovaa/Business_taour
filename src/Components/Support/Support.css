@@ -107,6 +107,9 @@
     .container{
       width: 600px;
     }
+    .support__title{
+      font-size:34px;
+    }
   }
   @media(max-width:620px){
     .container{
@@ -124,6 +127,9 @@
       font-size: 20px;
       color: rgb(243, 158, 30);
       margin-left: 400px;
+    }
+    .support__title{
+      font-size:32px;
     }
   }
   @media(max-width:520px){
@@ -146,6 +152,9 @@
       color: rgb(243, 158, 30);
       margin-left: 300px;
     }
+    .support__title{
+      font-size:30px;
+    }
    
   }
   @media(max-width:420px){
@@ -164,5 +173,8 @@
       font-size: 20px;
       color: rgb(243, 158, 30);
       margin-left: 150px;
+    }
+    .support__title{
+      font-size:28px;
     }
   }

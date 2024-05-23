@@ -109,5 +109,13 @@
     .location__img{
       height: 90px;
     }
+    .location__text{
+      font-size:14px;
+      line-height: 24px;
+      width: 98%;
+    }
+    .location{
+      padding-top: 30px;
+    }
    
   }

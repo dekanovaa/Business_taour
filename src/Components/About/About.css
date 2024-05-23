@@ -169,4 +169,8 @@
     .about__img{
         height: 260px;
     }
+    .about__text{
+      font-size:14px;
+      line-height: 24px;
+    }
   }

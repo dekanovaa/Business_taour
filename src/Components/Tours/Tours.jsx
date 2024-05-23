@@ -31,6 +31,11 @@ function Tours() {
         navigation ={false}
         loop={true}
         breakpoints={{
+          820: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+            
+          },
           720: {
             slidesPerView: 1.5,
             spaceBetween: 20,

@@ -59,3 +59,27 @@
 .button{
     margin-top:20px
 }
+
+@media(max-width:420px){
+    .Swipercard__list{
+        width: 290px;
+        height: 340px;
+        position: absolute;
+        padding: 15px;
+        border-radius: 15px;
+        background-color: white;
+        box-shadow: 0px 0px 15px 0px #00000026;
+        top: 40px;
+        left: 70px;
+    }
+    .Swipercard__hr{
+        width: 100%;
+        background-color: #AFAFAF;
+        margin-top: 15px;
+        margin-bottom:15px;
+    }
+    .Swipercard__title{
+        font-size: 24px;
+    }
+
+}

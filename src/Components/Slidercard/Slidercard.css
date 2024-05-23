@@ -59,3 +59,26 @@
     margin-top:20px
 }
 
+
+@media(max-width:420px){
+    .Slidercard__img{
+        width: 230px;
+        height: 280px;
+    }
+    .Slidercard__list{
+        width: 260px;
+        height: 360px;
+        position: absolute;
+        padding: 15px;
+        border-radius: 15px;
+        background-color: white;
+        box-shadow: 0px 0px 15px 0px #00000026;
+        top: 50px;
+        left: 40px;
+    }
+    .Slidercard__hr{
+        margin-top:15px;
+        margin-bottom: 15px;
+    }
+}
+
