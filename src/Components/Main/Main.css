@@ -195,6 +195,7 @@
     .main__text{
         width: 97%;
         text-align:start;
+        margin: 0 auto;
         /* padding-left: px; */
     }
     .main{
