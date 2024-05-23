@@ -177,4 +177,7 @@
     .support__title{
       font-size:28px;
     }
+    .support__text{
+      width: 97%;
+    }
   }

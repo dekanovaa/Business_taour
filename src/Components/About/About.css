@@ -155,7 +155,7 @@
   }
   @media(max-width:420px){
     .container{
-      width: 99%;
+      width: 97%;
     }
     .button__link{
         font-size:14px;
@@ -172,5 +172,6 @@
     .about__text{
       font-size:14px;
       line-height: 24px;
+      
     }
   }
