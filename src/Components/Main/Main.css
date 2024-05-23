@@ -222,11 +222,12 @@
     .main__text{
         font-size:14px;
         line-height:22px;
-       
     }
     .main__wrap{
         width: 100%;
         padding-right: 0;
+        text-align: start;
     }
+ 
   
   }
