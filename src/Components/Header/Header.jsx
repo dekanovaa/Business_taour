@@ -101,7 +101,7 @@ function Header() {
             <li className="header__item">
             <i class="fa-solid fa-user"></i>
             <div className="header__box">
-              <p className="header__text">P{t("header.text1")}</p>
+              <p className="header__text">{t("header.text1")}</p>
               <p className="header__subtext">134.84M</p>
             </div>
             </li>
