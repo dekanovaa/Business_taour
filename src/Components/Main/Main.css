@@ -174,13 +174,20 @@
   @media(max-width:520px){
     .container{
       width: 98%;
+      background-color: aqua;
+    
     }
     .main__title{
         font-size: 26px;
     }
     .main__img,.main__pic{
         height: 300px;
+        width: 100%;
+        margin-left: 10px;
+        margin-right: auto;
+       
     }
+   
     .main__box{
         width: 97%;
         text-align: center;
@@ -222,11 +229,13 @@
     .main__text{
         font-size:14px;
         line-height:22px;
+        padding-left: 10px;
     }
     .main__wrap{
         width: 100%;
         padding-right: 0;
         text-align: start;
+        padding-left: 10px;;
     }
  
   
