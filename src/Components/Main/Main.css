@@ -183,8 +183,8 @@
     }
     .main__box{
         width: 97%;
-        
         text-align: center;
+        justify-content: space-between;
     }
     .main__wrapper{
         gap: 10px;
